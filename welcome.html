@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body,div,p{
+            margin:0;
+            padding:0;
+        }
+        #container{
+            width:910px;
+            height:710px;
+            position:relative;
+            left:50%;
+            margin-left:-455px;
+        }
+        #container p.top{
+            text-align:center;
+            font-size:40px;
+            color:#0070c0;
+            margin-bottom:18px;
+        }
+        #container div.top-left,#container div.top-right,#container div.bottom-left,#container div.bottom-right{
+            width:440px;
+            height:310px;
+            float:left;
+            color:#ffffff;
+        }
+        #container div.top-left,#container div.top-right{
+            margin-bottom:30px;
+        }
+        #container div.top-left,#container div.bottom-left{
+            margin-right:30px;
+        }
+        #container div.bottom-right{
+            clear:right;
+        }
+         #container div.top-left{
+              background:#ed7d31;
+              
+         }
+         #container div.top-right{
+             background:#0070c0;
+         }
+         #container div.bottom-left{
+             background:#00b050;
+         }
+         #container div.bottom-right{
+             background:#ff7c80;
+         }
+         .top-left .top-left-in,.top-right .top-right-in,.bottom-left .bottom-left-in,.bottom-right .bottom-right-in{
+             margin-top:60px;
+             margin-left:60px;
+         }
+         .top-left .top-left-in{
+             margin:60px 30px 0 30px;
+         }
+         #container div.top-left p,#container div.top-right p,#container div.bottom-left p,#container div.bottom-right p{
+             margin-bottom:18px;
+         }
+         .p1{
+             font-size:16px;
+         }
+         span{
+             display:inline-block;
+             margin-top:18px;
+         }
+         p.bottom{
+             width:100%;
+             height:18px;
+             font-size:18px;
+             color:#0070c0;
+             margin-top:18px;
+             text-align:center;
+         }
+         
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <p class="top">欢迎新同学加入网仓Family!</p>
+        <div class="top-left">
+             <div class="top-left-in">
+                 <img src="images/pho.jpg">
+                 <div class="top-left-inone">
+                     <p class="p1">基本信息</p>
+                     <p>姓名：莫莉</p>
+                     <p>性别：女</p>
+                     <p class="p1">自我评价：<br>
+                    <span> 3年蘑菇街产品经理，使我喜欢上这份思维活跃、不断创新的职业。</span>
+                     </p>
+                 </div>
+             </div>
+
+        </div>
+        <div class="top-right">
+            <div class="top-right-in">
+                <p class="p1">网仓任职信息：</p>
+                <p>产品二组--产品经理</p>
+                <p class="p1">教育经历：<br>
+                   <span>2007.09-2011.07,杭州电子科技大学</span>
+                </p>
+            </div>
+        </div>
+        <div class="bottom-left">
+            <div class="bottom-left-in">
+                <p class="p1">工作经验：
+                    <p>
+                   <span>2010-2013:Contoso上海,负责产品设计；<br></span>
+                   <span>2013-2016:蘑菇街，产品经理</span>
+                    </p>
+                </p>
+            </div>
+        </div>
+        <div class="bottom-right">
+            <div class="bottom-right-in">
+                <p class="p1">网仓迎新致辞：</p>
+                <p>从今天起，你就是网仓一个重要的成员，在这里每一位成员都互相尊重，互相理解，希望这个平台，可以让你发挥更大的潜能，为自己，为公司，为客户创建更多的财富与价值！</p>
+            </div>
+        </div>
+       <p class="bottom">中国网仓，物联天下——携手共进，勇闯未来！</p>
+    </div>
+</body>
+</html>
